@@ -2,7 +2,7 @@
     var sum;
 
 $(document).ready(function(){
- /*     //图片预加载
+      //图片预加载
      var $img = $('img');
       var max_count = $img.length;
       $img.each(function(index, el) {
@@ -16,7 +16,7 @@ $(document).ready(function(){
               }
           });
       });
-    */
+   /*
      jQuery.preloadImages = function() { 
   　　for(var i = 0; i < arguments.length; i++) { 
   　　　　$("<img />").attr('src', arguments[i]); 
@@ -29,7 +29,7 @@ $(document).ready(function(){
           }
   　　　}
     };
-
+ */
    //主函数
     function main(){
       $.F_SIZE(960);
