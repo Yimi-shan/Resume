@@ -2,7 +2,7 @@
     var sum;
 
 $(document).ready(function(){
-      //图片预加载
+ /*     //图片预加载
      var $img = $('img');
       var max_count = $img.length;
       $img.each(function(index, el) {
@@ -16,7 +16,19 @@ $(document).ready(function(){
               }
           });
       });
-      
+    */
+     jQuery.preloadImages = function() { 
+  　　for(var i = 0; i < arguments.length; i++) { 
+  　　　　$("<img />").attr('src', arguments[i]); 
+          console.log(sum);
+          sum = parseInt(i/(arguments.length-2)*100)+"%";//计算百分比值
+        $('.start span').html(sum);//在页面上$('.start span')显示百分比
+          if(i == arguments.length-1){
+            $('.start').css('display', 'none');
+            main();
+          }
+  　　　}
+    };
 
    //主函数
     function main(){
