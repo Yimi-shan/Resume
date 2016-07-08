@@ -6,7 +6,7 @@ $(document).ready(function(){
      var $img = $('img');
       var max_count = $img.length;
       $img.each(function(index, el) {
-          $(this).preloadImages(function() {
+          $(this).ready(function() {
               count++;
               sum = parseInt(count/max_count*100)+"%";
               $('.start span').html(sum);
