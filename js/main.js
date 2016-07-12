@@ -61,8 +61,8 @@ var loader = new resLoader({
           'imgs/one/l2.png',
           'imgs/one/l3.png',
           'imgs/two/1.gif',
-          'imgs/bg.png',
-          'imgs/bg1.png',
+          'imgs/bg.jpg',
+          'imgs/bg1.jpg',
           'imgs/music.png',
           'imgs/musicoff.png'
      ],
